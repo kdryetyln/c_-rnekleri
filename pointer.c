@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//fonksiyonların göstericler ile kullanımı
 void mesajyaz(int *x)
 {
     int i;
