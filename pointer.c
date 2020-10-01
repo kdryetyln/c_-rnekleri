@@ -25,12 +25,12 @@ void degistir(int *x, int *y)
 }
 int fact(int *x)
 {
-    int i,faktoriyel=1;
+    int i,Factorial=1;
     for(i=*x;i>=1;i--)
     {
-        faktoriyel=faktoriyel*i;
+        Factorial=Factorial*i;
     }
-    return faktoriyel;
+    return Factorial;
 }
 
 int main()
@@ -51,7 +51,7 @@ int main()
     printf("\nDegisimden sonra degerler ...\n");
     printf("\nx = %d - y = %d\n",x,y);
     int a;
-    printf("Faktoriyeli alincak sayiyi giriniz : "); scanf("%d",&a);
+    printf("Factorial alincak sayiyi giriniz : "); scanf("%d",&a);
     long sonuc=fact(&a);
     printf("\n%d! = %lx\n", a, sonuc);
     return 0;
